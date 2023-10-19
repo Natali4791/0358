@@ -9,7 +9,6 @@
 // @grant        none
 // ==/UserScript==
 
-
 let links = document.links;
 let searchBtn = document.getElementById("search_icon");
 let input = document.getElementsByName("q")[0];
@@ -30,7 +29,6 @@ if (searchBtn !== null) {
       break;
     }
   }
-
 }
 function getRandom(min, max) {
   return Math.floor(Math.random() * (max - min) + min);
